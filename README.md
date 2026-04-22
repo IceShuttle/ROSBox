@@ -101,6 +101,7 @@ make enter ROS_DISTRO=iron
 | `ripgrep` (`rg`) | Blazing-fast grep alternative |
 | `fd-find` (`fd`) | Simple, fast `find` replacement |
 | `lsd` | `ls` with icons, colors, and tree view |
+| `gh` | GitHub CLI for PRs, issues, and repos |
 
 ### ✏️ Editor
 | Tool | Version | Source |
