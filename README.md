@@ -12,7 +12,7 @@ A streamlined, containerized development environment for **ROS 2 Humble** using 
 - 🔧 **Pre-installed Dev Tools**: Clang/LLVM toolchain, `cppcheck`, `ccache`, `ninja`, `lld`
 - ⚡ **Enhanced Terminal**: `zsh` + `starship` prompt + `zsh-autosuggestions` + `zsh-syntax-highlighting`
 - 🗂️ **Modern CLI Utilities**: `ripgrep`, `fd-find`, `lsd`, `zoxide`, `tmux`
-- ✏️ **Neovim v0.12.1**: Pre-installed from official releases for powerful in-container editing(depreciated use bob)
+- ✏️ **Neovim v0.12.1**: Pre-installed from official releases for powerful in-container editing
 - 🎮 **Optional NVIDIA Support**: GPU acceleration for perception/ML workloads via `--nvidia` flag
 - 🔄 **Easy Lifecycle Management**: `make build` / `enter` / `refresh` for quick setup and resets
 
