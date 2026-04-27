@@ -9,9 +9,12 @@ else
 NVIDIA_FLAGS := --nvidia
 endif
 FLAGS ?= $(FLAGS) $(NVIDIA)
+NVIM_VER := $(nvim --version | head -n1 | cut -d " " -f 2 )
 
 build:
-	$(RUNTIME) build -t $(IMAGE) . && touch build
+	$(RUNTIME) build -t $(IMAGE) \
+		--build-arg NVIM_VER=$(NVIM_VER) \
+		. && touch build
 create: build
 	distrobox create $(FLAGS) -n $(IMAGE) -i localhost/$(IMAGE)
 enter: create
