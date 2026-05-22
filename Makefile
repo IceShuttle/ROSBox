@@ -9,9 +9,10 @@ else
 NVIDIA_FLAGS := --nvidia
 endif
 FLAGS ?= $(FLAGS) $(NVIDIA)
-NVIM_VER := $(nvim --version | head -n1 | cut -d " " -f 2 )
+NVIM_VER != nvim --version | head -n1 | cut -d " " -f 2
 
 build:
+	echo $(NVIM_VER)
 	$(RUNTIME) build -t $(IMAGE) \
 		--build-arg NVIM_VER=$(NVIM_VER) \
 		. && touch build
