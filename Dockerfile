@@ -1,5 +1,5 @@
 ARG ROS_DISTRO=humble
-from ros:${ROS_DISTRO}
+from docker.io/ros:${ROS_DISTRO}
 
 ARG NVIM_VER="v0.12.1"
 
