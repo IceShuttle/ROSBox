@@ -120,12 +120,7 @@ Edit the `Dockerfile` to add/remove `apt-get install` packages or change tool ve
 
 ### Change Default Runtime
 ```bash
-# Via environment variable
-export RUNTIME=docker
-make enter
-
-# Or inline
-RUNTIME=docker make enter
+make enter RUNTIME=docker 
 ```
 
 
