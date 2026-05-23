@@ -30,7 +30,7 @@ curl -s https://raw.githubusercontent.com/89luca89/distrobox/main/install | sudo
 sudo apt install podman  # OR: sudo apt install docker.io
 
 # Optional: NVIDIA Container Toolkit (for GPU support)
-# https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html
+ https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html
 ```
 
 > 💡 **Note**: If using Docker, set `RUNTIME=docker` in your `make` commands or export it as an env var.
