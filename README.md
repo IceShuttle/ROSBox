@@ -1,6 +1,6 @@
-# 🤖 ROS 2 Humble Distrobox Dev Environment
+# 🤖 ROS 2 Humble(Defualt) Distrobox Dev Environment
 
-A streamlined, containerized development environment for **ROS 2 Humble** using **Distrobox** + **Podman/Docker**, pre-configured with essential development tools, a polished terminal experience, and optional NVIDIA GPU support.
+A streamlined, containerized development environment for **ROS 2 Humble(Default)** using **Distrobox** + **Podman/Docker**, pre-configured with essential development tools, a polished terminal experience, and optional NVIDIA GPU support.
 
 > ✨ Perfect for ROS 2 development on Linux workstations with host-like performance and easy reproducibility.
 
@@ -8,7 +8,7 @@ A streamlined, containerized development environment for **ROS 2 Humble** using 
 
 ## 🚀 Features
 
-- 🐳 **Containerized ROS 2 Humble**: Isolated, reproducible environment based on official `ros:humble` image
+- 🐳 **Containerized ROS 2 Humble(Default)**: Isolated, reproducible environment based on official `ros:humble` image
 - 🔧 **Pre-installed Dev Tools**: Clang/LLVM toolchain, `cppcheck`, `ccache`, `ninja`, `lld`
 - ⚡ **Enhanced Terminal**: `zsh` + `starship` prompt + `zsh-autosuggestions` + `zsh-syntax-highlighting`
 - 🗂️ **Modern CLI Utilities**: `ripgrep`, `fd-find`, `lsd`, `zoxide`, `tmux`
